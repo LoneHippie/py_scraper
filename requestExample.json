@@ -1,0 +1,22 @@
+{
+    "url": "https://realpython.github.io/fake-jobs/",
+    "configs": [
+        {
+            "name": "jobs",
+            "method": "ex-nested-props",
+            "arguments": [
+                {"class": "card-content"}, [
+                    {"class": "title"}, 
+                    {"class": "company"}, 
+                    {"class": "location"},
+                    {"tag": "time"}
+                ]
+            ]
+        },
+        {
+            "name": "titles",
+            "method": "ex-elements-by-attr",
+            "arguments": {"tag": "h2"}
+        }
+    ]
+}
